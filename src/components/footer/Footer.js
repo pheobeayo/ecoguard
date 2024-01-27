@@ -1,50 +1,29 @@
 import React from "react";
-import {
-  ButtonContainer,
-  CenterWrapper,
-  FooterParent,
-  SearchBarContainer,
-  SearchBarForm,
-  Button,
-  SubscribeContainer
-} from "./footer.styles";
-
+import Subscriber from "../subscribe/Subscribe";
 
 
 const Footer = () => {
   return (
+    <div className="bg-[#1A1818]">
+      <div className="container mx-auto sm:px-[80px] pb-[100px]">
+     
+      <h2 className="text-white text-xl sm:text-3xl font-bold leading-10 mt-4">
+        Subscribe to our mailing list
+      </h2>
+      <p className="text-justify pt-[10px] text-white text-xs sm:text-sm font-normal leading-5 sm:leading-7">
+      Stay informed about the latest wildlife conservation updates,endangered species
+          <br />  initiatives, and valuable tips and strategies for supporting wildlife protection on our platform.{" "}
 
-    <FooterParent>
-      <CenterWrapper>
-        <SubscribeContainer>
-          <h3>Subscribe to our mailing list</h3>
+      </p>
 
-          <h4>Stay informed about the latest wildlife conservation updates,endangered species</h4>
-          <p>  initiatives, and valuable tips and strategies for supporting wildlife protection on our platform.
-          </p>
-
-          <ButtonContainer>
-            <SearchBarContainer>
-              <SearchBarForm>
-                <input
-                  type="text"
-                  className="search-input"
-                  placeholder="Email Address"
-                />
-                <Button>Subscribe</Button>
-              </SearchBarForm>
-            </SearchBarContainer>
+      <Subscriber />
+      
+      </div>
+    </div>
+    
 
 
-          </ButtonContainer>
-        </SubscribeContainer>
-
-      </CenterWrapper>
-    </FooterParent>
   )
-
-
-
 }
 
-export default Footer;
+export default Footer;  
