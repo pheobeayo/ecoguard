@@ -1,10 +1,7 @@
 import React, { useState } from "react";
-import Subfooter from "../../components/subfooter/index";
-import Navbar from "../../components/navbar/Navbar";
 import arrow from "../../assets/arrow.png";
 import Checkbox from "../../components/checkbox/Checkbox"
-import Swal from "sweetalert2";
-import 'sweetalert2/dist/sweetalert2.css';
+import {createProject} from "../../components/contracts/call";
 
 
 
@@ -16,44 +13,12 @@ const NftMint = () => {
         setChecked(!checked);
     };
 
-    const [createProject, setCreateProject] = useState('');
-
-    const CreateProject = (create) => {
-        if (!createProject) {
-            Swal.fire({
-                position: 'center',
-                icon: 'success',
-                fontWeight: 'bold',
-                title: 'Congratulations',
-                text: 'Congratulations! You have successfully created the project HornShield😊',
-                background: "#110A03",
-                confirmButtonColor: '#B98D63',
-                confirmButtonText: 'View Project',
-                // showConfirmButton: false,
-                timer: 2500
-            });
-
-            setCreateProject(create);
-        } else {
-            Swal.fire({
-                position: 'center',
-                icon: 'danger',
-                title: 'You have already Submitted a Project',
-                text: 'You can only submit your project once.',
-                background: "#110A03",
-                confirmButtonColor: '#B98D63',
-                confirmButtonText: 'OK',
-                timer: 2000
-            });
-        }
-    };
+   
+    
 
 
     return (
         <main className="bg-[#1A1818] w-screen">
-
-            <Navbar />
-
             <section class='w-[90%] md:w-[80%] mx-auto py-10'>
                 <form class='mt-40 w-3/4 mx-28'>
                     <h1 className="text-[30px] md:text-[34px] font-bold text-white mx-40">
@@ -127,7 +92,7 @@ const NftMint = () => {
                         />
                     </div>
                     <button type='submit' className='w-full px-8 py-2 mb-2 font-semibold rounded-lg text-white bg-[#DA8450] hover:bg-[#1A1818]'
-                        onClick={() => CreateProject('createProject')}>Create Project</button>
+                        onClick={() => createProject()}>Create Project</button>
 
 
 
@@ -138,7 +103,7 @@ const NftMint = () => {
             </section>
 
 
-            <Subfooter />
+
 
         </main>
 

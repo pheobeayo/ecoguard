@@ -6,9 +6,7 @@ import pateImg from "../../assets/Pate.svg";
 import carterImg from "../../assets/carter.svg";
 import andersonImg from "../../assets/anderson.svg";
 import updateImg from "../../assets/updates.svg";
-import Navbar from "../../components/navbar/Navbar";
 import onhorn from "../../assets/onhorn.png";
-import Subfooter from "../../components/subfooter/index";
 import mccoy from "../../assets/mccoy.svg";
 import ba from "../../assets/ba.png";
 import cart from "../../assets/cart.png";
@@ -83,7 +81,7 @@ const ProjectDetails = () => {
     <>
       <main className="bg-[#1A1818] ">
         <section className="w-[90%] md:w-[94%] mx-auto py-10">
-          <Navbar />
+          
           <div class="flex flex-col md:flex-col justify-center">
             <h1 className="title-font sm:text-2xl text-3xl mb-4 font-medium text-white">
               McCoy
@@ -171,9 +169,7 @@ const ProjectDetails = () => {
               {project}
             </div>
           ))}
-          <div class="flex flex-col md:flex-row justify-center w-[120%]">
-            <Subfooter />
-          </div>
+          
         </section>
       </main>
     </>

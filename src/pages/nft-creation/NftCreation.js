@@ -1,6 +1,4 @@
 import React from "react";
-import Subfooter from "../../components/subfooter/index";
-import Navbar from "../../components/navbar/Navbar";
 import arrow from "../../assets/arrow.png";
 import { useNavigate } from "react-router-dom";
 
@@ -21,7 +19,7 @@ const NftCreation = () => {
     return (
         <main className="bg-[#1A1818] w-screen">
 
-            <Navbar />
+            
             <section class='w-[90%] md:w-[80%] mx-auto py-10'>
                 <form class='mt-40 w-3/4 mx-28'>
                     <h1 className="text-[30px] md:text-[34px] font-bold text-white mx-40">
@@ -65,7 +63,7 @@ const NftCreation = () => {
 
             </section>
 
-            <Subfooter />
+            
 
 
         </main>

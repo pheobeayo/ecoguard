@@ -2,7 +2,6 @@
 import { Link } from "react-router-dom";
 import hornImage from "../../assets/hornImage.svg";
 import Navbar from "../../components/navbar/Navbar";
-import Subfooter from "../../components/subfooter/index";
 import onhorn from "../../assets/onhorn.png";
 import nftbark from "../../assets/nftbark.png";
 import availablecanopy from "../../assets/availablecanopy.png";
@@ -171,12 +170,7 @@ const Horn = () => {
                     </div>
                 </div>
                
-                <footer class="bg-[#1A1818] max-w-screen-xl ">
-                    <div class="mx-auto w-full max-w-screen-xl">
-                        <Subfooter />
-                    </div>
-                </footer>
-
+               
 
 
 

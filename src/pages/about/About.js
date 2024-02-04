@@ -1,16 +1,6 @@
 import React from "react";
-import {
-    SummaryContainer2,
-    SummaryCard,
-    SummaryContainer,
-    } from "./about.styles";
-import Subfooter from "../../components/subfooter/index";
-import Navbar from "../../components/navbar/Navbar";
-import star from "../../assets/star.png";
 import arrow from "../../assets/arrow.png";
-
-
-
+import star from "../../assets/star.png";
 
 
 
@@ -20,96 +10,115 @@ const About = () => {
 
 
     return (
-        <main className="bg-[#1A1818] w-screen">
-           
-                    <Navbar />
+        <div className="bg-[#1A1818]">
+            <div className="container mx-auto px-8 sm:px-[80px] py-[100px]">
                 
-                
-              <div class=' text-white text-4xl mb-3 mx-40'>
-                    <h2>Why Ecoguards?</h2>
+                    <h2 className="text-white text-3xl pb-[48px] font-bold leading-10 mt-16">
+                        Why Ecoguards?
+                    </h2>
                     <img src={arrow} alt="arrow" />
-                    </div>
-                <SummaryContainer>
-                    <SummaryCard background="#110A03" borderColor="#110A03">
-                        <img src={star} alt="star" width={40}/>
-                        <h3>Direct Impact</h3>
-                        <p>Donating through our platform ensures
+                
+
+                <div className="sm:grid sm:grid-cols-3 sm:space-x-0 gap-4">
+                    {/* first content */}
+                    <div className='content-card w-full  mb-5 h-full border-white border-2 rounded-md'>
+                        <div className="mx-12">
+                        <img src={star} alt="star" width={40} className="mx-4 mt-2" />
+                        <h3 className="text-white text-2xl font-bold leading-loose pt-[40px] mx-4">
+                            Direct Impact
+                        </h3>
+                        <p className="text-white text-sm font-normal leading-7">
+                            Donating through our platform ensures
                             <br></br>that your contributions directly support
                             <br></br>conservation projects aimed at saving
-                            <br></br>endangered animals in Africa, 
-                            <br></br>maximizing the impact of your donations.</p>
+                            <br></br>endangered animals in Africa,
+                            <br></br>maximizing the impact of your donations.
+                        </p>
+                        </div>
+                    </div>
 
-                    </SummaryCard>
-                    <SummaryCard background="#110A03" borderColor="#110A03">
+                    {/* second content */}
+                    <div className='content-card w-full mb-5 h-full border-white border-2 rounded-md'>
                         <img src={star} alt="star" width={40} />
-                        <h1>Transparency and Accountability</h1>
-                        <p>Our platform ensures transparency and
+                        <h3 className="text-white text-2xl font-bold leading-loose pt-[40px]">
+                            Transparency and Accountability
+                        </h3>
+                        <p className="text-white text-sm font-normal leading-7">
+                            Our platform ensures transparency and
                             <br></br>accountability by enabling donors to track
                             <br></br>and verify the utilization of their funds,
                             <br></br>promoting trust and accountability in
-                            <br></br>conservation efforts</p>
-                    </SummaryCard>
-                    <SummaryCard background="#110A03" borderColor="#110A03">
-                        <img src={star} alt="star"  width={40}/>
-                        <h1>Efficiency and Cost-effectiveness</h1>
-                        <p>By leveraging blockchain technology and
+                            <br></br>conservation efforts
+                        </p>
+                    </div>
+
+                    {/* third content */}
+                    <div className='content-card w-full mb-5 h-full border-white border-2 rounded-md'>
+                        <img src={star} alt="star" width={40} />
+                        <h3 className="text-white text-2xl font-bold leading-loose pt-[40px]">
+                            Efficiency and Cost-effectiveness
+                        </h3>
+                        <p className="text-white text-sm font-normal leading-7">
+                            By leveraging blockchain technology and
                             <br></br>cryptocurrency donations, our platform
                             <br></br>minimizes transaction costs, allowing a
                             <br></br>higher proportion of donated funds to
-                            <br></br>benefit wildlife conservation projects.</p>
-                    </SummaryCard>
-                </SummaryContainer>
+                            <br></br>benefit wildlife conservation projects
+                        </p>
+                    </div>
+                </div>
+                <div className="sm:grid sm:grid-cols-3 sm:space-x-0 gap-4 mt-2">
+                    {/* first content */}
+                    <div className='content-card w-full mb-5 h-full border-white border-2 rounded-md'>
+                        <img src={star} alt="star" width={40} />
+                        <h3 className="text-white text-2xl font-bold leading-loose pt-[40px]">
+                            Global Reach
+                        </h3>
+                        <p className="text-white text-sm font-normal leading-7">
+                            Our platform enables individuals and
+                            <br></br>organizations from around the world to
+                            <br></br>participate in saving endangered animals,
+                            <br></br>fostering a global community united in
+                            <br></br>their commitment to wildlife conservation
+                        </p>
+                    </div>
 
+                    {/* second content */}
+                    <div className='content-card w-full mb-5 h-full border-white border-2 rounded-md'>
+                        <img src={star} alt="star" width={40} />
+                        <h3 className="text-white text-2xl font-bold leading-loose pt-[40px]">
+                            Cryptocurrency Benefits
+                        </h3>
+                        <p className="text-white text-sm font-normal leading-7">
+                            Donating in cryptocurrency offers benefits
+                            <br></br>such as faster transactions, enhanced
+                            <br></br>security, and potential tax advantages,
+                            <br></br>making it an efficient method for
+                            <br></br>contributing to wildlife conservation
+                        </p>
+                    </div>
 
-               
-                <SummaryContainer2>
-                    <SummaryCard background="110A03" borderColor='110A03'>
-                    <img src={star} alt='star' width='40'/>
-                    <h1>Global Reach</h1>
-                    <p>Our platform enables individuals and 
-                    <br></br>organizations from around the world to 
-                    <br></br>participate in saving endangered animals, 
-                    <br></br>fostering a global community united in 
-                    <br></br>their commitment to wildlife conservation.</p>
-                    </SummaryCard>
+                    {/* third content */}
+                    <div className='content-card w-full mb-5 h-full border-white border-2 rounded-md'>
+                        <img src={star} alt="star" width={40} />
+                        <h3 className="text-white text-2xl font-bold leading-loose pt-[40px]">
+                            Sustainable Future
+                        </h3>
+                        <p className="text-white text-sm font-normal leading-7">
+                            By donating to save endangered animals,
+                            <br></br>you secure a sustainable future,
+                            <br></br>preserving Africa's biodiversity, ecological
+                            <br></br>balance, and invaluable natural heritage
+                            <br></br>for generations to come
+                        </p>
+                    </div>
+                </div>
 
-                    <SummaryCard background="110A03" borderColor='110A03'>
-                    <img src={star} alt='star' width='40'/>
-                    <h1>Cryptocurrency Benefits</h1>
-                    <p>Donating in cryptocurrency offers benefits 
-                        <br></br>such as faster transactions, enhanced 
-                        <br></br>security, and potential tax advantages, 
-                        <br></br>making it an efficient method for 
-                        <br></br>contributing to wildlife conservation.</p>
-                    </SummaryCard>
-                    <SummaryCard background="110A03" borderColor='110A03'>
-                    <img src={star} alt='star' width='40'/>
-                    <h1>Sustainable Future</h1>
-                    <p>By donating to save endangered animals, 
-                        <br></br>you secure a sustainable future, 
-                        <br></br>preserving Africa's biodiversity, ecological 
-                        <br></br>balance, and invaluable natural heritage 
-                        <br></br>for generations to come.</p>
-                    </SummaryCard>
-                </SummaryContainer2>
-               
-                
-                   
-                        <Subfooter />
-                   
-                        </main>
-            
-
-
+            </div>
+        </div>
 
 
     )
-
-
-
-
-
 }
-
 
 export default About;

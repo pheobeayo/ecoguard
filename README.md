@@ -1,39 +1,37 @@
-Celo & Bunzz Hackathon
-
-
-Team Name: Tech La’femme
-
+Bounty: $1,700 and $24,000 in grants within Liteflow’s startup program.
 
 Track: NFT
 
-
 Product Name: Ecoguard
 
+Topic: Development of Ecoguard, an NFTs product for the conservation of the ecosystem
 
-Topic: Development of Ecoguard, an NFTs product for the conservation of the ecosystem (Wildlife and Forestry).
-
-Product Requirement Document:
-https://docs.google.com/document/d/10A9RoMEndhPp7nfccC7Jk1oxH99zY2EAV5VJsM9_2IM/edit?usp=sharing
-
-Design: https://www.figma.com/file/S0v4kYdwtoRfymAyrIQTQc/ECOGUARD?type=design&node-id=701-1446&mode=design&t=MoFKO4m4IZiADO0O-0 
 
 Prototype:
 https://www.figma.com/proto/S0v4kYdwtoRfymAyrIQTQc/ECOGUARD?type=design&node-id=965-8252&t=5X93SP8MkFijWlfZ-0&scaling=min-zoom&page-id=518%3A1533&starting-point-node-id=965%3A9975 
 
 GIT REPO
-https://github.com/ecoguards 
+https://github.com/pheobeayo/ecoguard 
 
 MVP
-https://ecoguards.vercel.app/ 
+https://ecoguard-lightlink.vercel.app/ 
 
-Deployed Address on CeloBunzz and Celo Alfajores: 0xbD2C510871c6edC9b48A3054a7a2560f5e56EcbE
+Deployed Address on lightlink: 
+https://gist.github.com/nafkem/c69c32948f69f69ca17b9aa3bf3822ac 
+#EcoToken  deployed to 0x368d09842204D66e2734656789370D18E25B9B0c
+#EcoNFT deployed to 0x8907eaBBa64B8f4729EB82b28ff508CCaC20c924
+#Ecoguard deployed to 0x3A5CbF8c91F7bA5479AD0cB4cF0A2dEd20d025DE
+
 
 PITCH DEMO VIDEO
-https://www.canva.com/design/DAFsMdg1bgs/zsvKLDWsqUEpRMWM1atSRw/watch 
+https://youtu.be/nxwTfQnKVlA 
 
 PITCH-DECK PRESENTATION SLIDE
-https://www.canva.com/design/DAFrr4p-klg/B5OrxA-QaR2bTHtxTY1E9g/edit?utm_content=DAFrr4p-klg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton 
+https://www.canva.com/design/DAF7vMDpyj4/0ZtISgkW61ar4Ki3QAJ5Rg/edit?utm_content=DAF7vMDpyj4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton 
 
+Product Requirement Document:
+https://docs.google.com/document/d/1r2IcV89EcNmgcPpnnyEXHY9VSj8MtMmSBAtASDX5su0/edit?usp=sharing 
+Product Requirement Document (PRD)
 Product Overview:
 Ecoguard is a digital platform that utilizes non-fungible tokens (NFTs) to conserve Africa's ecosystem, preventing wildlife extinction and preserving its forests. It allows users to participate in forestry and wildlife conservation efforts by purchasing and trading NFTs representing endangered species such as rhinos, African elephants, cheetahs, mountain gorillas etc. 
 Ecoguard leverages blockchain technology; to provide a transparent and secure platform for individuals and organizations to support the protection of endangered species through the creation, trading and ownership of unique digital assets. The funds generated through the sale of these NFTs will be directly allocated to conservation initiatives, ensuring the long-term sustainability of Africa's precious ecosystems.
@@ -49,7 +47,6 @@ Product Objectives:
   Generate funds to protect and restore the habitats of endangered species.
    Promote transparency and accountability in the allocation of conservation resources.
 
-
 Value Proposition:
 Conservation Impact: By purchasing NFTs on Ecoguard, users directly contribute to the preservation of African ecosystems and the protection of endangered wildlife. They can witness the tangible impact of their contributions and be part of a global movement to safeguard the planet's natural heritage.
 
@@ -59,7 +56,7 @@ Accessible Conservation: Through the digital nature of NFTs, conservation effort
 
 Cultural Preservation: By preserving African wildlife and forests, we protect the cultural heritage and biodiversity of the region for future generations.
 
-4. Target Audience:
+Target Audience:
 Individuals passionate about wildlife conservation and the environment.
 Conservation organizations, foundations and initiatives..
 Art collectors, Art and enthusiasts interested in supporting a cause.
@@ -119,15 +116,12 @@ Impact Tracking:
 Users follow projects for the purchased NFTs for updates and the impact.
 
 Technical 
-a) Front-end: Developed as a web application, accessible from desktop and mobile devices.  React js, styled-components, Tailwind CSS, react-router Dom, sweetalert2, react-responsive-carousel and deployed on vercel. 
+a) Front-end: Developed as a web application, accessible from desktop and mobile devices.  React js, styled-components, Tailwind CSS, rainbow kit, wagmi, viem, lightlink Pegasus testnet and deployed on vercel. 
 
-b) Back-end: Developed using Nodejs, express, and Mongodb
-
-c) Blockchain Integration:
-Blockchain Network: Celo Network 
-Smart Contracts: Solidity, hardhat environment, Remix for testing
-Deployed on Celobunzz and Celo alfajores testnet on address  0xbD2C510871c6edC9b48A3054a7a2560f5e56EcbE.
-
+b) Blockchain Integration:
+Blockchain Network: lightlink Pegasus testnet
+Smart Contracts: Solidity,Hardhat, Pegasus testnet, Solidity flattener
+Deployed on  Lightlink
 
 Security and Data Privacy:
 Implement robust security measures to protect user data, transactions, and NFT ownership.
@@ -150,3 +144,36 @@ Revenue Streams:
 1% Listing Fees
 Partnerships and Sponsorships with conservation organizations, brands, or sponsors to promote their initiatives or products within the platform.
 Collecting a portion of royalties when NFTs are resold on secondary markets.
+
+
+Ecoguard Differentiating Factors:
+Focus on Wildlife Conservation: Ecoguard's unique selling point lies in its specific focus on conserving African wildlife and preserving ecosystems, differentiating it from general-purpose NFT marketplaces.
+Transparent Impact Tracking: Ecoguard's blockchain-based ledger system provides transparency and accountability in fund allocation, giving users clear visibility into the impact of their contributions.
+Curation of Conservation Projects: Ecoguard curates a list of conservation projects, offering users a clear understanding of the initiatives they can support and enabling them to contribute directly.
+Educational Content: Ecoguard can provide educational resources and content related to African wildlife conservation, promoting awareness and understanding among users.
+
+Team:
+S/N
+Name
+Specialization
+Email
+1
+Odegha Clementina
+Product Manager
+clementinapromise20@mail.com
+2
+Olayinka Babalola
+Product Designer
+yb.babs00@gmail.com
+3
+Nofisat Abiodun Ayanlola
+Smart Contract  Developer
+nafkem@gmail.com
+4
+Ifeoluwa Ayo Sanni
+Frontend Developer
+pheobeayo@gmail.com
+
+
+In Conclusion:
+Our product stands out by combining the power of blockchain technology with the urgent need for wildlife conservation. By offering digital assets that hold both aesthetic and environmental value, we create a new paradigm where art, technology, and conservation converge, attracting a wider audience and driving impactful change. Users participate in conservation efforts while potentially benefiting from the growing value of their digital assets. This innovative approach not only preserves Africa's wildlife and forests but also offers a novel investment opportunity with a purpose.
