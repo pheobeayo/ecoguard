@@ -5,7 +5,6 @@ import Projects from "../../components/projects/Projects";
 import Latest from "../../components/latest/Latest";
 import Theones from "../../components/theones/Theones";
 import Footer from "../../components/footer/Footer";
-import Subfooter from "../../components/subfooter/index";
 import Navbar from "../../components/navbar/Navbar";
 import OngoingBidding from "../../components/ongoingbidding/OngoingBidding";
 import Available from "../../components/available/Available";
@@ -56,10 +55,7 @@ const Home = () => {
                         <div>
                                 <Footer />
                         </div>
-                        <div>
-                                <Subfooter />
-                        </div>
-
+                        
                 </main>
 
 

@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../../assets/logo.png";
 import { Link } from "react-router-dom";
+import { ConnectButton } from '@rainbow-me/rainbowkit';
 
 
 
@@ -23,9 +24,7 @@ const Navbar = () => {
                     <Link style={{ textDecoration: 'none', color: 'white' }}>FAQs</Link>
                     </ul>
                <div class='mx-4 '> 
-                  <button class="bg-[#DA8450] hover:bg-[#1A1818] text-white font-semibold py-2  border-white w-32 h-10 rounded-full">
-              Connect Wallet
-            </button>
+               <ConnectButton />
             </div>
                 <div class="p-16 space-y-2 rounded shadow">
                   <Link to='/sign-in'> <span class="block w-8 h-0.5 bg-gray-100 animate-pulse"></span> </Link>

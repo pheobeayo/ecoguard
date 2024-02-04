@@ -8,8 +8,6 @@ import nftpride from "../../assets/nftpride.png";
 import availableroot from "../../assets/availableroot.png";
 import availablecanopy from "../../assets/availablecanopy.png";
 import availablemist from "../../assets/availablemist.png";
-import Subfooter from "../../components/subfooter/index";
-import Navbar from "../../components/navbar/Navbar";
 import { Link } from "react-router-dom";
 
 
@@ -24,7 +22,7 @@ const Marketplace = () => {
 
     return (
         <main className="bg-[#1A1818] w-screen">
-           <Navbar />
+           
            <section class='mt-36 w-screen'>
           
               <div class='mt-16 mx-8 flex gap-8'> 
@@ -54,7 +52,7 @@ const Marketplace = () => {
            
             </section>
 
-            <Subfooter />
+           
 
 
 
