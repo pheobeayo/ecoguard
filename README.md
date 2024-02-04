@@ -24,14 +24,19 @@ https://gist.github.com/nafkem/c69c32948f69f69ca17b9aa3bf3822ac
 
 
 PITCH DEMO VIDEO
+
 https://youtu.be/nxwTfQnKVlA 
 
 PITCH-DECK PRESENTATION SLIDE
+
 https://www.canva.com/design/DAF7vMDpyj4/0ZtISgkW61ar4Ki3QAJ5Rg/edit?utm_content=DAF7vMDpyj4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton 
 
 Product Requirement Document:
+
 https://docs.google.com/document/d/1r2IcV89EcNmgcPpnnyEXHY9VSj8MtMmSBAtASDX5su0/edit?usp=sharing 
+
 Product Requirement Document (PRD)
+
 Product Overview:
 Ecoguard is a digital platform that utilizes non-fungible tokens (NFTs) to conserve Africa's ecosystem, preventing wildlife extinction and preserving its forests. It allows users to participate in forestry and wildlife conservation efforts by purchasing and trading NFTs representing endangered species such as rhinos, African elephants, cheetahs, mountain gorillas etc. 
 Ecoguard leverages blockchain technology; to provide a transparent and secure platform for individuals and organizations to support the protection of endangered species through the creation, trading and ownership of unique digital assets. The funds generated through the sale of these NFTs will be directly allocated to conservation initiatives, ensuring the long-term sustainability of Africa's precious ecosystems.
@@ -153,26 +158,11 @@ Curation of Conservation Projects: Ecoguard curates a list of conservation proje
 Educational Content: Ecoguard can provide educational resources and content related to African wildlife conservation, promoting awareness and understanding among users.
 
 Team:
-S/N
-Name
-Specialization
-Email
-1
-Odegha Clementina
-Product Manager
-clementinapromise20@mail.com
-2
-Olayinka Babalola
-Product Designer
-yb.babs00@gmail.com
-3
-Nofisat Abiodun Ayanlola
-Smart Contract  Developer
-nafkem@gmail.com
-4
-Ifeoluwa Ayo Sanni
-Frontend Developer
-pheobeayo@gmail.com
+S/N                             Name                           Specialization                    Email
+1                              Odegha Clementina               Product Manager                   clementinapromise20@mail.com
+2                              Olayinka Babalola               Product Designer                  yb.babs00@gmail.com
+3                              Nofisat Abiodun Ayanlola        Smart Contract  Developer         nafkem@gmail.com
+4                              Ifeoluwa Ayo Sanni              Frontend Developer                pheobeayo@gmail.com
 
 
 In Conclusion:
